@@ -31,7 +31,7 @@ public class IntegralDoble {
         double resultado = calcularIntegralDoble(funcion, a, b, c, d, n, m);
 
         // Mostrar el resultado con un valor aproximado y exacto
-        System.out.printf("Valor aproximado de la integral: %.2f%n", resultado); // Aproximado con 2 decimales
+        System.out.printf("Valor de la integral: %.10f%n", resultado); // Aproximado con 2 decimales
 
 
         // Conectar con la aplicación gráfica

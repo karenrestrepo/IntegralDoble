@@ -50,9 +50,7 @@ public class HelloApplication extends Application {
         }
 
         lineChart.getData().add(series);
-
-        // Mostrar el resultado de la integral (opcional)
-        System.out.println("Valor de la integral: " + valorIntegral);
+        
 
         Scene scene = new Scene(lineChart, 800, 600);
         stage.setScene(scene);
