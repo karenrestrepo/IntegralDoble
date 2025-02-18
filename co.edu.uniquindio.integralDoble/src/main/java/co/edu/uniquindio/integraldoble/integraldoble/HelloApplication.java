@@ -50,7 +50,7 @@ public class HelloApplication extends Application {
         }
 
         lineChart.getData().add(series);
-        
+
 
         Scene scene = new Scene(lineChart, 800, 600);
         stage.setScene(scene);
