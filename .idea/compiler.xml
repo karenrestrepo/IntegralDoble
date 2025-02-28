@@ -10,5 +10,8 @@
         <module name="integralDoble" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="integralDoble" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
